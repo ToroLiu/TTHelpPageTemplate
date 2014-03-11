@@ -1,12 +1,13 @@
-### Register the help page area 
+### README
 
-In "global.asax.cs", you'll need to add: 
+### Step 1
 
-    AreaRegistration.RegisterAllAreas(); 
+Download this template to the project. If it is located in `Areas/HelpPage/` of project,
+then `%PATH_TO_THIS_TEMPLATE%` will be `Areas/HelpPage`
 
 
-### Reference the 'Site.css'
+### Step 2
 
-In "Areas/HelpPage/Views/Share/_Layout.cshtml", add:
+Reference the 'Site.css' for HelpPage package, in "Areas/HelpPage/Views/Share/_Layout.cshtml", add:
 
-    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/%PATH_TO_THIS_TEMPLATE%/Content/Site.css" rel="stylesheet" />
